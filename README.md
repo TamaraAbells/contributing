@@ -10,7 +10,7 @@ To run a development server, use `npm run dev`
 
 To run a production server, use `npm run build` then `npm run start`
 
-You need to set an environment variable `BASE_URL` with the address of [@comet-app/server](https://github.com/comet-app/server). For a development environment, this should be your local IP address with port 4000. Example: https://api.getcomet.net
+You need to set an environment variable `BASE_URL` with the address of the server running the backend. For a development environment, this should be your local IP address with port 4000. Example: https://api.getcomet.net
 
 # Server
 [@comet-app/server](https://github.com/comet-app/server) runs the backend server. The project is written in [TypeScript](https://www.typescriptlang.org/). [TypeORM](https://typeorm.io/#/) is used for the database and [TypeGraphQL](https://typegraphql.com/) is used for the GraphQL API.

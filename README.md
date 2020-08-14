@@ -21,19 +21,30 @@ To run a production server, use `npm run tsc` then `npm run start`
 
 ## Environment variables
 `ACCESS_TOKEN_SECRET` (Required): a secure password used for encrypting JWT tokens
+
 `DATABASE_URL` (Required in production): URL for the PostgreSQL 12 database
+
 `ORIGIN_URL` (Required in production): the URL of the server running `web`. Example: https://www.getcomet.net
+
 `AWS_ACCESS_KEY_ID` (Optional, needed for image upload and thumbnails): your AWS access key ID
+
 `AWS_SECRET_ACCESS_KEY` (Optional, needed for image upload and thumbnails): your AWS secret access key
+
 `COMET_BOT_PASSWORD` (Optional, needed if running bot): Password to login to the Comet bot
+
 `DISCORD_TOKEN` (Optional, needed for report button and feedback): Token for Discord bot
 
 ## Dev Database
 Your local PostgreSQL 12 database is expected to have the following credentials:
+
 `port: 5432`
+
 `username: postgres`
+
 `password: password`
+
 `database: postgres`
+
 
 # What type of contributions are desired?
 Bug fixes are appreciated and will likely be merged. If you are interested in implementing a new feature or making a major change, please contact Dan#7457 on [our Discord](https://discord.gg/NPCMGSm).
